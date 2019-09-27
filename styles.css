@@ -1,0 +1,223 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.left-navigation{
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.inside-navigation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100%;
+  width:80%;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #BABABA;
+}
+
+.nav-link:hover{
+  color:white;
+}
+
+
+.main{
+  padding-left: 220px;
+background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 0%,
+  rgba(102,102,102,1) 0%, rgba(89,89,89,1) 5%,
+  rgba(43,43,43,1) 14%, rgba(17,17,17,1) 37%, rgba(0,0,0,1) 61%,
+  rgba(28,28,28,1) 80%, rgba(19,19,19,1) 100%);
+}
+
+
+.main-navigation__list{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+
+}
+.element{
+  color: #BABABA;
+  list-style: none;
+  padding-left: 22px;
+  letter-spacing: 2px;
+  text-decoration: none;
+
+}
+
+.element:hover{
+  color:white;
+}
+
+.myname{
+  white-space: nowrap;
+}
+
+.albums{
+  height:100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: space-between;
+  align-items: center; */
+
+}
+
+.logo{
+  height:50px;
+}
+
+.logo-text{
+  font-size: 32px;
+  align-self: center;
+  padding-left:5px;
+
+}
+
+.album{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.overPicture{
+  position: absolute;
+  width:30px;
+  display:none;
+}
+
+.album:hover .album{
+  filter: brightness(65%);
+}
+
+.album:hover .overPicture{
+  display: block;
+  filter: brightness(100%);
+}
+
+.header{
+  color:white;
+}
+
+.album-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.album-pic{
+  width:140px;
+  height:200px;
+}
+
+
+.album_text{
+  text-decoration: none;
+  color:white;
+  max-width:140px;
+  margin-top: 15px;
+}
+
+
+.new{
+  border-top: 1px solid #BABABA;;
+  padding-top: 10px;
+}
+
+.old{
+  padding-bottom: 10px;
+}
+
+.App{
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+.myname{
+  margin-top: 10px;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-block{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-home, .logo-search, .logo-library{
+  width: 35px;
+}
+
+.Create-playlist{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.playlists{
+  font-size:25px;
+  letter-spacing: 2px;
+}
+
+.logo-create-playlist{
+  width: 35px;
+  fill:white;
+}
+
+.text-create-playlist{
+  font-size:20px;
+  padding-left:10px;
+  align-self: center;
+}
+
+.download{
+  width: 20px;
+}
+
+.account-pic{
+  width: 35px;
+  border-radius: 50%;
+}
+
+.main_inner-wrapper{
+  width:90%;
+  margin: 0 auto;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.view{
+  align-self: center;
+  text-decoration: none;
+  color:grey;
+}
+
+.view:hover{
+  color:white;
+}
