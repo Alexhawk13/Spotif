@@ -265,7 +265,7 @@ html, body{
 }
 
 .album-picture{
-   height:60px;
+   height:61px;
 }
 
 .footer-icon{
@@ -297,8 +297,20 @@ html, body{
 /* @media screen and (orientation: landscape) and (max-width: 820px) {
 
 } */
-@media screen and (max-width: 450px) and (orientation: portrait)
-{
+
+
+/*Adjusting to Ipad and Ipad Pro ===>*/
+
+
+
+@media screen and (max-width:560px) and (orientation: landscape){
+
+
+}
+
+
+
+@media screen and (max-width: 450px) and (orientation: portrait), (orientation:landscape){
 .album-pic{
   width:80px;
   height:120px;
@@ -414,25 +426,15 @@ html, body{
     .footer__text {
       padding-left: 5px;
     }
-  }
+}
 
 
-@media screen and (min-width: 560px) and (orientation: landscape){
-  .album-pic{
-    width: 80px;
-    height: 120px;
-  }
+@media screen and (min-width:560px) and (max-width:850px) and (orientation: landscape){
+
    .album_text{
      max-width: 80px; */
      font-size: 12px;
    }
-
-
-
-
-
-
-
 
    .logo-text {
      display: none;
@@ -445,8 +447,6 @@ html, body{
      display: block;
    }
 
-
-
    .view{
      display: none;
    }
@@ -456,13 +456,6 @@ html, body{
    .playlists {
      display: none;
    }
-
-
-
-
-
-
-
 
    .left-navigation{
      width:110px;
@@ -485,80 +478,200 @@ html, body{
    }
 
    .main{
-     padding-left: 100px;
+     padding-left: 70px;
    }
 
    .albums{
      height: auto;
    }
+
+   .left-navigation{
+      width:70px;
+    }
+    .logo-pic{
+      width:29px;
+    }
+    .album{
+      width: auto;
+    }
+
+   .album-wrapper{
+     flex-wrap: wrap;
+   }
+
+
+
+   .element{
+     letter-spacing: 0px;
+   }
+
+   .footer{
+     height: 54px;
+   }
+
+   .footer__text{
+
+   }
+
+   audio{
+     display: none;
+   }
+
+
+   .browser{
+     padding-left:10px;
+   }
+
+   .footer__right-icon{
+    padding-right: 25px;
+
+   }
+
+   .play-hidden-img{
+       width:30px;
+       fill:navy;
+       stroke:navy;
+       margin-bottom: -4px;
+   }
+
+   .play-hidden{
+     display: block;
+     align-self: center;
+     margin-left: -25px;
+     border-radius: 50%;
+     background-color: #009688;
+   }
+
+
+}
+
+@media screen and (min-width:560px) and (max-width:667px) and (orientation:landscape){
+  .album-pic{
+    width:140px;
+    height:110px;
+  }
+}
+
+
+
+@media screen and (min-width:730px) and (max-width:750px) and (orientation:landscape){
+  .album-pic{
+    width:170px;
+    height:135px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:800px) and (max-width:840px) and (orientation:landscape){
+  .album-pic{
+    width:190px;
+    height:150px;
+  }
+
 }
 
 
 
 
 
+/*Adjusting to Ipad and Ipad Pro ===>*/
 
-@media screen and (max-width: 600px) and (orientation:landscape){
- .left-navigation{
-   width:70px;
- }
- .logo-pic{
-   width:29px;
- }
- .album{
-   width: auto;
- }
+
+/*Adjusting to Ipad ===>*/
+
+@media screen and (min-width:760px) and (max-width:1030px) and (orientation:portrait){
+
+.albums{
+  height: auto;
+}
+
+.album{
+  width: auto;
+}
 
 .album-wrapper{
   flex-wrap: wrap;
 }
 
-.album-pic{
-  width: 110px;
-  height:90px;
+.logo-pic{
+  width:55px;
 }
 
 
-.element{
-  letter-spacing: 0px;
+.left-navigation{
+  height:calc(100% - 61px);
+}
 }
 
-.footer{
-  height: 54px;
-}
+/*Adjusting to Ipad Pro ===>*/
 
-.footer__text{
+@media screen and (min-width:1000px) and (max-width:1030px) and (orientation:portrait){
+ .album-pic{
 
-}
+  width:200px;
+  height:200px;
+ }
 
-audio{
-  display: none;
-}
-
-
-.browser{
-  padding-left:10px;
-}
-
-.footer__right-icon{
-padding-right: 25px;
 
 }
 
-.play-hidden-img{
-    width:30px;
-    fill:navy;
-    stroke:navy;
-    margin-bottom: -4px;
+/*Adjusting to Ipad ===>*/
+
+@media screen and (min-width:1024px) and (max-width:1100px) and (orientation:landscape){
+
+  .albums{
+    height:auto;
+
+  }
+
+  .album{
+    width: auto;
+  }
+
+  .album-wrapper{
+    flex-wrap: wrap;
+  }
+
+
+  .album-pic{
+    width:200px;
+    height:200px;
+  }
+
+  .left-navigation{
+    height:calc(100% - 61px);
+  }
 
 }
 
 
-.play-hidden{
-  display: block;
-  align-self: center;
-  margin-left: -25px;
-  border-radius: 50%;
-  background-color: #009688;
-}
+/*Adjusting to Ipad Pro ===>*/
+
+@media screen and (min-width:1366px) and (max-width:1390px) and (orientation:landscape){
+  .albums{
+    height:auto;
+
+  }
+
+  .album{
+    width: auto;
+  }
+
+  .album-wrapper{
+    flex-wrap: wrap;
+  }
+
+
+  .album-pic{
+    width: 290px;
+    height: 240px;
+  }
+
+  .left-navigation{
+    height:calc(100% - 61px);
+  }
+
 }
