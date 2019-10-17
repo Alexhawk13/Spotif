@@ -86,7 +86,7 @@ html, body{
 }
 
 .albums{
-  height:100vmin;
+  height:70vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,7 +138,6 @@ html, body{
 
 .album__pic{
   width:140px;
-  height:200px;
 }
 
 .album__text{
@@ -286,11 +285,15 @@ html, body{
   padding-right:10px;
 }
 
+.player{
+  display: flex;
+  align-self: center;
+}
+
 
 @media screen and (max-width: 450px) and (orientation: portrait){
 .album__pic{
   width:80px;
-  height:120px;
 }
 
 .album__text{
@@ -539,7 +542,6 @@ html, body{
 @media screen and (min-width:560px) and (max-width:667px) and (orientation:landscape){
 .album__pic{
   width:140px;
-  height:110px;
 }
 
 }
@@ -547,7 +549,6 @@ html, body{
 @media screen and (min-width:730px) and (max-width:750px) and (orientation:landscape){
 .album__pic{
   width:170px;
-  height:135px;
 }
 
 }
@@ -556,7 +557,6 @@ html, body{
 @media screen and (min-width:800px) and (max-width:840px) and (orientation:landscape){
 .album__pic{
   width:190px;
-  height:150px;
 }
 
 }
@@ -572,7 +572,6 @@ html, body{
 
 .album__pic{
   width:185px;
-  height:200px;
 }
 
 }
@@ -620,7 +619,6 @@ html, body{
 @media screen and (min-width:1000px) and (max-width:1030px) and (orientation:portrait){
 .album__pic{
   width:200px;
-  height:200px;
 }
 
 }
@@ -644,7 +642,6 @@ html, body{
 
 .album__pic{
   width:200px;
-  height:200px;
 }
 
 .left-navigation{
