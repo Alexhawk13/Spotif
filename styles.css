@@ -302,7 +302,7 @@ html, body {
 
 .playlists {
   display: none;
-}  
+}
 
 .album__pic {
   width: 80px;
@@ -632,9 +632,9 @@ html, body {
 
 /*Adjusting to Ipad ===>*/
 
-@media screen and (min-width:1024px) and (max-width:1100px) and (orientation:landscape) {
+/* @media screen and (min-width:1024px) and (max-width:1100px) and (orientation:landscape) { */
 
-.albums {
+/* .albums {
   height: auto;
 }
 
@@ -655,7 +655,19 @@ html, body {
   height: calc(100% - 61px);
 }
 
-}
+} */
 
 
 /*Adjusting to Ipad Pro ===>*/
+
+@media screen and (min-height:900px) and (max-height:1000px) {
+  .albums{
+    height: 60vmin;
+  }
+}
+
+@media screen and (min-height:768px) and (min-width:1000px) {
+  .albums{
+    height: 40vmin;
+  }
+}
