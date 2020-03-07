@@ -136,6 +136,7 @@ html, body {
 
 .album__pic {
   width: 180px;
+  max-width: 100%;
 }
 
 .album__text {
@@ -572,6 +573,7 @@ html, body {
 
 .album {
   width: auto;
+  max-width: 100%;
   }
 
 .album__pic {
